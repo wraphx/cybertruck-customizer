@@ -120,4 +120,4 @@ console.log()
   )
 }
 
-useGLTF.preload('/models/Cybertruck.glb')
+useGLTF.preload('/Cybertruck.glb')
