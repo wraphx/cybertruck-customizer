@@ -18,11 +18,11 @@ export default function App() {
         <Suspense fallback={null}>
         <Cybertruck scale={3} position={[0, 0, 0]} />
         </Suspense>
-        <hemisphereLight intensity={0.5} />
+        
         <ContactShadows position={[0, 0, 0]} opacity={0.75} scale={20} blur={2.5} far={12.8} />
         <ContactShadows resolution={1024} frames={1} position={[0, 0, 0]} scale={20} blur={1.5} opacity={0.5} far={25} />
         
-        <ambientLight intensity={0.4} />
+        <ambientLight intensity={0.3} />
         <spotLight intensity={0.5} angle={0.1} penumbra={1} position={[10, 15, 10]} castShadow />
 
         {/* <Environment preset="city" /> */}
